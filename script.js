@@ -193,6 +193,7 @@ function confirmAndSend() {
         return; 
     }
     
+    // Validate name and address fields
     if (!name && !address) {
         alert("Please enter your Name and Address.");
         return;
