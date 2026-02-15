@@ -203,7 +203,7 @@ header {
 
 @keyframes move{ 0%{ transform: translateY(-5px); } 50%{ transform: translateY(0px); } 100%{ transform: translateY(-5px); } }
 
-.aimg{ justify-self: center; column; padding: 0px clamp(1rem, 4vw, 4rem); width: clamp(20rem, 36vw, 36rem); background-color: rgb(236, 174, 236); border-radius: 50px;}
+.aimg{ justify-self: center; column; padding: 0px clamp(1rem, 4vw, 4rem); width: clamp(20rem, 36vw, 36rem); border-radius: 50px; height: 50%;}
 .aimg img{ height: 80%; width: 100%; padding: 20px 0px; border-radius: 60px; }
 
 .cbox{ margin-top: 2rem; height: 50%; width: 100%; overflow: hidden; border: 1px solid purple; border-radius: 25px; }
@@ -227,6 +227,7 @@ header {
         overflow-wrap: break-word;}
 
 }
+
 
 
 
