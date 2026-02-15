@@ -194,7 +194,7 @@ header {
 .hidden { display: none !important; }
 
 .about{ height: auto; width: 100%; border-radius: 25px; scroll-margin-top: 80px;}
-.abox{ display: grid; grid-template-columns: repeat(auto-fit, minmax(370px, 1fr)); align-items: center; }
+.abox{ display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); align-items: center; }
 .atext{ justify-self: center; display: flex; justify-content: center; align-items: center; flex-direction: column; padding: 0px clamp(1rem, 4vw, 4rem); width: 90%; background-color: rgb(236, 174, 236); border-radius: 50px;}
 .atext h1{ padding-bottom: 0px; margin-bottom: 0px; }
 .atext p{ font-size: 1.2rem; hyphens: auto; overflow-wrap: break-word; word-wrap: break-word; text-align: justify; line-height: 1.5rem; }
@@ -217,10 +217,6 @@ header {
     .collection-grid { grid-template-columns: 1fr 1fr; }
     #product-grid { grid-template-columns: 1fr 1fr; }
     .atext{ order:1;}
-    .aimg{
-        padding-bottom: 1rem;
-        margin-bottom: 1rem;
-    }
     .logo {height: auto; 
         width: auto; 
         color: white; 
@@ -231,6 +227,7 @@ header {
         overflow-wrap: break-word;}
 
 }
+
 
 
 
